@@ -472,3 +472,7 @@ text-align: left;
         justify-content: center;
         gap: 15px;
       }
+
+      .i200tk{
+        background: rgb(198, 228, 214);
+      }
