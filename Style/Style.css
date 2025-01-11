@@ -10,11 +10,13 @@
     padding: 0;
   }
 
-  body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+body
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
 
   section{
     margin-top: 60px;
@@ -31,7 +33,6 @@
     background: rgb(0, 106, 80);
     padding: 17px 34px 17px 34px;
     color: rgb(255, 255, 255);
-font-family: Fira Sans;
 font-size: 18px;
 font-weight: 600;
 line-height: 22px;
@@ -41,7 +42,6 @@ text-align: left;
 
    .banner-title1{
     color: rgba(14, 14, 14, 0.5);
-    font-family: Fira Sans;
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
@@ -52,7 +52,6 @@ text-align: left;
 
    .banner-title2{
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
     font-size: 56px;
     font-weight: 700;
     line-height: 67px;
@@ -94,7 +93,6 @@ background: rgb(198, 228, 214);
 
      .inside-future{
         color: rgb(14, 14, 14);
-        font-family: Fira Sans;
         font-size: 32px;
         font-weight: 700;
         line-height: 48px;
@@ -104,7 +102,6 @@ background: rgb(198, 228, 214);
       
      .vision-des{
         color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -115,7 +112,6 @@ margin-top: 10px;
 
      .inside-vision-title{
         color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
 font-size: 20px;
 font-weight: 700;
 line-height: 24px;
@@ -125,7 +121,6 @@ text-align: left;
 
      .inside-vision-des{
         color: rgba(14, 14, 14, 0.7);
-        font-family: Fira Sans;
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
@@ -139,7 +134,6 @@ text-align: left;
         background: rgb(84, 144, 245);
         color: rgb(255, 255, 255);
         padding: 11px 20px 11px 20px;
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
@@ -154,7 +148,6 @@ text-align: left;
         background: rgb(9, 161, 92);
         color: rgb(255, 255, 255);
         padding: 11px 20px 11px 20px;
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
@@ -169,7 +162,6 @@ text-align: left;
         background: rgb(255, 194, 57);
         color: rgb(255, 255, 255);
         padding: 11px 20px 11px 20px;
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
@@ -208,7 +200,6 @@ background: rgb(247, 235, 207);
      
 .news-head{
     color: rgb(14, 14, 14);
-font-family: Fira Sans;
 font-size: 40px;
 font-weight: 700;
 line-height: 48px;
@@ -219,7 +210,6 @@ margin-bottom: 15px;
 
  .news-des{
     color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -237,7 +227,6 @@ margin-bottom: 15px;
 
    .al-news-head{
     color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
@@ -247,7 +236,6 @@ margin-bottom: 15px;
    
    .al-news-time{
     color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -259,7 +247,6 @@ margin-bottom: 15px;
 
     .al-news-des{
  color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -285,7 +272,6 @@ margin-bottom: 15px;
 
       .donate-heading{
         color: rgb(14, 14, 14);
-        font-family: Fira Sans;
         font-size: 40px;
         font-weight: 700;
         line-height: 48px;
@@ -295,7 +281,6 @@ margin-bottom: 15px;
 
        .donate-des{
         color: rgba(14, 14, 14, 0.7);
-        font-family: Fira Sans;
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
@@ -313,7 +298,6 @@ padding: 40px;
 background: rgb(255, 255, 255);
 
 color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
 font-size: 40px;
 font-weight: 700;
 line-height: 48px;
@@ -360,7 +344,6 @@ text-align: left;
 
     .sub-head{
       color: rgb(14, 14, 14);
-font-family: Fira Sans;
 font-size: 40px;
 font-weight: 700;
 line-height: 48px;
@@ -371,7 +354,6 @@ text-align: center;
 
     .sub-des{
       color: rgba(14, 14, 14, 0.7);
-      font-family: Fira Sans;
       font-size: 16px;
       font-weight: 400;
       line-height: 24px;
@@ -414,7 +396,6 @@ width: 600px;
 
       .speech-des-st{
         color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -424,7 +405,6 @@ text-align: left;
 
       .speech-des-mid{
         color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
 font-size: 20px;
 font-weight: 600;
 line-height: 24px;
@@ -436,7 +416,6 @@ margin-bottom: 8px;
 
       .speech-des-end{
         color: rgba(14, 14, 14, 0.6);
-font-family: Fira Sans;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -476,3 +455,35 @@ text-align: left;
       .i200tk{
         background: rgb(198, 228, 214);
       }
+
+      /*  */
+    .main-head{
+      color: rgb(14, 14, 14);
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 38px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+     .main-btn{
+      box-sizing: border-box;
+      border: 1px solid rgb(0, 106, 80);
+      border-radius: 8px;
+      padding: 15px 30px 15px 30px;
+      color: rgb(0, 106, 80);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+     }
+
+     ul{
+      display: flex ;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+     }
+     main{
+      margin-top: 50px;
+     }
