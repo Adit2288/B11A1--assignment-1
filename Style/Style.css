@@ -487,3 +487,10 @@ text-align: left;
      main{
       margin-top: 50px;
      }
+
+     nav ul li {
+      list-style: none;
+     }
+     nav ul li a{
+      text-decoration: none;
+     }
