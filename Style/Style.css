@@ -446,4 +446,8 @@ text-align: left;
         padding: 48px 24px 48px 24px;
       }
 
-      
+      .yunus-speech{
+        margin-top: 30px;
+        background-image: url(../assets/quote-bg.png);
+        background-repeat: no-repeat;
+      }
